@@ -1,0 +1,146 @@
+/* Navbar.module.css */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .navList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navItem {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    top: 15px; 
+  }
+  
+  .navItem:last-child {
+    margin-right: 0;
+  }
+  
+  /* Style the links */
+  .navItem a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .navItem a:hover {
+    color: white; 
+    border: 1px solid #aec8e2e0; 
+    padding: 5px; 
+    border-radius: 4px;
+    background-color: #add8e6;
+  }
+
+/* Footer.module.css */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px; 
+  font-size: small;
+  background-color: #d1cfcf;
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/*header style*/
+.headerstyle{
+  font-size: larger;
+  position: relative;
+  top: 10px; 
+}
+
+/*addnewbook form styling*/
+/* Styles for the modal container */
+.modalContainer {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styles for the modal */
+.modal {
+  border-radius: 5px;
+  padding: 2rem;
+  background-color: white;
+  width: 25em;
+  text-align: center;
+}
+
+.modal .btn {
+  margin-top: 1rem; 
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.cancelBtn {
+  margin-left: 10px; 
+  margin-top: 1rem; 
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.formGroup{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-bottom: 1rem;
+}
+.formGroup label {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-weight: bold;
+  
+}
+.formGroup input,
+.formGroup textarea,
+.formGroup select {
+  border: 1px solid black;
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+  font-size: 1rem;
+}
+
+.formGroup label {
+  margin-bottom: 0.2rem; 
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #df4759;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+/*Validation message*/
+.validationMessage{
+  color: #df4759;
+}

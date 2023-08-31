@@ -1,0 +1,26 @@
+.image-container {
+  background-image: url('/path/to/your/image.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70vh; 
+
+}
+
+.stat-card {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin: 0px 120px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #add8e6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.count{
+  font-size: 30px;
+}
+
